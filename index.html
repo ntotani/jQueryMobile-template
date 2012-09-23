@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-          <meta charset="UTF-8"/>
-          <title>JQuery Mobile</title>
-          <link rel="stylesheet" href="jquery.mobile-1.1.1.min.css"/>
-          <script src="jquery-1.7.1.min.js"></script>
-          <script>
-                  $(document).bind("mobileinit", function() {
-                          //$.mobile.defaultPageTransition = false;
-                  });
-          </script>
-          <script src="jquery.mobile-1.1.1.min.js"></script>
-          <script src="main.js"></script>
-  </head>
-  <body>
-          <section id="page1" data-role="page">
-                  <header data-role="header">
-                          <h2>ヘッダ</h1>
-                  </header>
-                  <div data-role="content">
-                          <p>こんにちは</p>
-                  </div>
-                  <footer data-role="footer">
-                          <h2>フッタ</h1>
-                  </footer>
-          </section>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <title>JQuery Mobile</title>
+        <link rel="stylesheet" href="jquery.mobile-1.1.1.min.css"/>
+        <script src="jquery-1.7.1.min.js"></script>
+        <script>
+            $(document).bind("mobileinit", function() {
+                //$.mobile.defaultPageTransition = false;
+            });
+        </script>
+        <script src="jquery.mobile-1.1.1.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <section id="page1" data-role="page">
+            <header data-role="header">
+                <h1>ヘッダ</h1>
+            </header>
+            <div data-role="content">
+                <p>こんにちは</p>
+            </div>
+            <footer data-role="footer">
+                <h1>フッタ</h1>
+            </footer>
+        </section>
+    </body>
 </html>
